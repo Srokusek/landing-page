@@ -104,6 +104,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 64px 0;
 }
 
 .signature {
@@ -115,4 +116,45 @@ button {
 
 .quote, .signature  {
     width: 50%;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 126px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 25px;
+    max-width: 1000px;
+    padding: 64px;
+}
+
+.signup .box .sign {
+    border: 2px solid #f9faf8; 
+    flex-shrink: 0;
+}
+
+.box .text .title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.box .text .subtext {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 32px;
+    text-align: center;
 }
